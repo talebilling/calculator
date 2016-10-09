@@ -1,4 +1,13 @@
 #!/usr/bin/python
+
+'''
+This script makes calculations while user provides the following inputs:
+    1. integer number
+    2. one of these operations: '+', '-', '*', '/'
+    3. integer number. 
+Exit if user gives any other input than the expected ones.
+'''
+
 import sys
 import operator
 import re
